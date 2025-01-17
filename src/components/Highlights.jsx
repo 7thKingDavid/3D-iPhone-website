@@ -7,6 +7,7 @@ const Highlights = () => {
     gsap.to('#title', { opacity: 1, y: 0 })
     gsap.to('.link', {opacity: 1, y: 0 })
   }, [])
+  
   return (
     <section id="highlights" className="w-screen overflow-hidden h-full commopn-padding bg-zinc">
       <div className="screen-max-width">
